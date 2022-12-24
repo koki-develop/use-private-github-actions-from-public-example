@@ -4,7 +4,6 @@ jobs:
   action:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: koki-develop/private-github-actions-example@main
         with:
           who-to-greet: koki
@@ -15,5 +14,4 @@ jobs:
   composite:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: koki-develop/private-github-actions-example/.github/actions/hello@main
