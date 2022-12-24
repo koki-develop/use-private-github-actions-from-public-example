@@ -8,8 +8,8 @@ jobs:
         with:
           who-to-greet: koki
 
-  reusable:
-    uses: koki-develop/private-github-actions-example/.github/workflows/_reusable.yml@main
+  # reusable:
+  #   uses: koki-develop/private-github-actions-example/.github/workflows/_reusable.yml@main
 
   composite:
     runs-on: ubuntu-latest
